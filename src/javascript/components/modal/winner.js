@@ -1,3 +1,5 @@
+import { showModal } from '../../modal/modal.js';
+
 export function showWinnerModal(fighter) {
-  // call showModal function 
+  showModal(`${fighter}`, fighter);
 }
